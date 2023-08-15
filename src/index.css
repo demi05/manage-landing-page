@@ -19,30 +19,6 @@ body {
 }
 
 /* nav and hamburger styling */
-#overlay {
-  background-color: hsl(228, 39%, 23%);
-  position: fixed;
-  z-index: 2;
-  pointer-events: none;
-  transition: 0.3s ease;
-  width: 0%;
-  height: 100%;
-  opacity: 0;
-  top: 0;
-  right: 0;
-  left: 0;
-}
-.overlay.active {
-  pointer-events: all;
-  opacity: 0.5;
-  width: 100%;
-}
-
-#menu {
-  transition: all 0.25s;
-  z-index: 1500;
-}
-
 .hamburger {
   cursor: pointer;
   width: 1.5rem;
@@ -127,6 +103,14 @@ body {
 
 .testimonials-nav__btn--active {
   background-color: hsl(12, 88%, 59%);
+}
+
+input{
+    width: 80%;
+}
+
+.footer-btn{
+    width: 20%;
 }
 
 @media (max-width: 750px) {

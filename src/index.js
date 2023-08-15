@@ -1,13 +1,11 @@
 // hamburger script
 const btn=document.querySelector("#menu-btn")
 const nav=document.querySelector("#menu")
-const overLay=document.querySelector(".overlay")
 
 btn.addEventListener("click", () => {
     btn.classList.toggle("open")
     nav.classList.toggle("flex")
     nav.classList.toggle("hidden")
-    overLay.classList.toggle("active")
 })
 
 // carousel script

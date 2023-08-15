@@ -106,11 +106,11 @@ body {
 }
 
 input {
-  width: 80%;
+  width: 70%;
 }
 
 .footer-btn {
-  width: 20%;
+  width: 30%;
 }
 
 @media (max-width: 750px) {

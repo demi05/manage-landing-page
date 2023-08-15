@@ -1,0 +1,141 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url(../images/bg-tablet-pattern.svg);
+  background-repeat: no-repeat;
+  background-size: 800px;
+  background-position: 90% -25%;
+}
+
+#cta {
+  background-image: url(../images/bg-simplify-section-desktop.svg);
+  background-repeat: no-repeat;
+}
+
+/* nav and hamburger styling */
+#overlay {
+  background-color: hsl(228, 39%, 23%);
+  position: fixed;
+  z-index: 2;
+  pointer-events: none;
+  transition: 0.3s ease;
+  width: 0%;
+  height: 100%;
+  opacity: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.overlay.active {
+  pointer-events: all;
+  opacity: 0.5;
+  width: 100%;
+}
+
+#menu {
+  transition: all 0.25s;
+  z-index: 1500;
+}
+
+.hamburger {
+  cursor: pointer;
+  width: 1.5rem;
+  height: 1.5rem;
+  transition: all 0.25s;
+  position: relative;
+}
+
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1.5rem;
+  height: 0.2rem;
+  background-color: hsl(233, 12%, 13%);
+  transform: rotate(0);
+  transition: all 0.5s;
+}
+
+.hamburger-middle {
+  transform: translateY(7px);
+}
+
+.hamburger-bottom {
+  transform: translateY(14px);
+}
+
+.open {
+  transform: rotate(90deg);
+  transform: translateY(0px);
+}
+
+.open .hamburger-top {
+  transform: rotate(45deg) translateY(6px) translate(6px);
+}
+
+.open .hamburger-middle {
+  display: none;
+}
+
+.open .hamburger-bottom {
+  transform: rotate(-45deg) translateY(6px) translate(-6px);
+}
+
+/* carousel styling */
+.testimonials-nav {
+  position: relative;
+}
+
+.testimonials-nav__item {
+  display: none;
+}
+
+.testimonials-nav__item--active {
+  display: block;
+}
+
+.testimonials-nav__div {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0.75em 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3em;
+}
+
+.testimonials-nav__btn {
+  width: 10px;
+  height: 10px;
+  border: 1px solid hsl(12, 88%, 59%);
+  padding: 0.2em;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.testimonials-nav__btn--active {
+  background-color: hsl(12, 88%, 59%);
+}
+
+@media (max-width: 750px) {
+  body {
+    background-position: 4rem -4rem;
+    background-size: 500px;
+  }
+
+  #cta {
+    background-image: url(../images/bg-simplify-section-mobile.svg);
+  }
+}

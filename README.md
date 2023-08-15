@@ -29,12 +29,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![]()![Screenshot 2023-08-15 at 21-16-39 Frontend Mentor Manage landing page](https://github.com/demi05/manage-landing-page/assets/98643006/cbb70097-81d4-4fb5-875b-76181d7f337b)
+
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/demi05/manage-landing-page)
-- Live Site URL: [Add live site URL here](https://manage-landing-page-demi05.netlify.app/#)
+- Solution URL: [My solution URL](https://github.com/demi05/manage-landing-page)
+- Live Site URL: [My live site URL](https://manage-landing-page-demi05.netlify.app/#)
 
 ## My process
 
@@ -57,4 +58,4 @@ I was not able to make the carousel as functional as I'd like. I will revisit it
 
 - Linkedn - [Leshi Oluwademilde](https://www.linkedin.com/in/demiladeleshi276/)
 - Frontend Mentor - [@demi05](https://www.frontendmentor.io/profile/demi05)
-- Twitter - [@toniiaa__](https://www.twitter.com/yourusername)
+- Twitter - [@toniiaa__](https://twitter.com/toniiaa___)

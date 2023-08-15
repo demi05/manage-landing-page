@@ -48,6 +48,7 @@ Users should be able to:
 
 ### What I learned
 I learned to use the Tailwind CSS framework while working on this project. I also learnt to use spans for my hamburger which i could also rotate when clicked. 
+I also got to work on my form validation skills which is so great because I have been meaning to do this for a long time.
 
 ### Continued development
 I was not able to make the carousel as functional as I'd like. I will revisit it once I have learnt how to fully make  a carousel.
